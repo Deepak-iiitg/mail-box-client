@@ -1,0 +1,44 @@
+@media (min-width:850px){
+    .login,.signup{
+        border:2px solid grey;
+        background-color: aqua;
+        width:30%;
+        height:auto;
+        padding-left:40px;
+        border-radius: 5px;
+        margin-left:35%;
+        margin-top:100px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:849px){
+    .login,.signup{
+        border:2px solid grey;
+        background-color: aqua;
+        width:80%;
+        height:auto;
+        padding-left:40px;
+        border-radius: 5px;
+        margin-left:10%;
+        margin-top:100px;
+        box-sizing: border-box;
+    }
+}
+
+.input{
+    margin:10px;
+}
+span,input{
+    display:block;
+}
+input{
+    padding:5px 0px 5px 0px;
+    width:200px;
+}
+button{
+   padding:10px 20px 10px 20px;
+   background-color: blue;
+   color:white;
+   border-radius: 10px;
+   border-color: blue;
+}
